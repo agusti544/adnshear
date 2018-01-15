@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update;
-apt-get -y install git make automake gcc screen libcurl4-openssl-dev;
+apt-get -y install make automake gcc screen libcurl4-openssl-dev;
 apt-get -y install build-essential;
 apt-get -y install autotools-dev autoconf;
 apt-get -y install libcur13 libcur14-gnutls-dev;
