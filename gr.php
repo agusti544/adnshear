@@ -11,7 +11,7 @@ User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) Appl
 X-DevTools-Emulate-Network-Conditions-Client-Id: 299D5927572F76C828DFE553551AF419");
 
 
-$nomer = 085774946542;
+$nomer = '085774946542';
 $i = 0;
 while($i < 10) {
 echo curl($nomer)."<br>";
