@@ -1,6 +1,8 @@
 <?php
 // Copyright: YarzC0de
-$nomer = 'Input-Nomor-HP';
+echo "Masukan NO XL anda: ";
+$asal = trim(fgets(STDIN));
+$nomer = $asal;
 $i = 0;
 $jumlah = "10";
 $TxnId = "Input-Txn-ID";
