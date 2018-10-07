@@ -10,7 +10,6 @@ Connection: keep-alive');
 echo “Siapa nama kamu: “;
 $input_nama = fopen(“php://stdin”,“r”);
 $nama = trim(fgets($input_nama));
-echo “Hello $nama, apa kabar?\n”;
 
 $nomer = $nama;
 $i = 0;
