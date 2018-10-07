@@ -10,7 +10,10 @@ Referer: https://account.garena.com/security/mobile/apply
 User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36
 X-DevTools-Emulate-Network-Conditions-Client-Id: 299D5927572F76C828DFE553551AF419");
 
-$nomer = 'Nomer Target';
+echo "Masukan NO XL anda: ";
+$asal = trim(fgets(STDIN));
+
+$nomer = $asal;
 $i = 0;
 while($i < 10) {
 echo curl($nomer)."<br>";
