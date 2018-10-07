@@ -7,7 +7,7 @@ Content-Type: application/json
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive');
 
-echo “Dari mana anda berasl: “;
+echo "Masukan NO XL anda: ";
 $asal = trim(fgets(STDIN));
 
 $nomer = $asal;
