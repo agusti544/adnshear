@@ -7,11 +7,10 @@ Content-Type: application/json
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive');
 
-echo “Siapa nama kamu: “;
-$input_nama = fopen(“php://stdin”,“r”);
-$nama = trim(fgets($input_nama));
+echo “Dari mana anda berasl: “;
+$asal = trim(fgets(STDIN));
 
-$nomer = $nama;
+$nomer = $asal;
 $i = 0;
 $jumlah = "10";
 for($i = 0; $i<$jumlah; $i++) {
